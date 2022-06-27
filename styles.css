@@ -16,7 +16,9 @@ header {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #e5e7eb;
+    font-size: 18px;
+
 }
 
 ul{
@@ -36,6 +38,56 @@ ul{
     justify-content: space-between;    
     flex-grow: 0;
     align-items: center;  
+    padding-top: 10px;
 }
 
-.hero {}
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 900px;
+    display: flex;
+    justify-content: center;    
+    flex-grow: 0;
+    align-items: center;
+}
+
+.hero-card {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:#F9FAF8;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.hero-image>img {
+    width: 420px;
+    height: auto;
+}
+
+.hero-maint-text {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-button>button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    padding: 15px 32px;
+    border-radius: 8px;
+}
