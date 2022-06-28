@@ -155,3 +155,51 @@ div {
     font-weight: bold;
     justify-content: flex-end;
 }
+.action {
+    justify-content: center;
+    align-items: center;
+}
+.action-card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #3882F6;
+    width: 700px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-grow: 0;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.action-text {
+    flex-direction: column;
+    gap: 10px;
+}
+.action-title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.action-subtext {
+    color: white;
+    
+}
+button {
+    background-color: #3882F6;
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+}
+footer {
+    display: flex;
+    padding: 25px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
