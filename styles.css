@@ -54,6 +54,7 @@ ul{
     justify-content: center;    
     flex-grow: 0;
     align-items: center;
+    gap: 30px;
 }
 
 .hero-card {
@@ -68,14 +69,14 @@ ul{
     gap: 30px;
 }
 .hero-image>img {
-    width: 420px;
+    width: 470px;
     height: auto;
 }
 
 .hero-maint-text {
     font-size: 48px;
     font-weight: 900;
-
+    color: #F9FAF8;
 }
 
 .hero-subtext {
@@ -194,7 +195,14 @@ button {
     padding: 15px 32px;
     border-radius: 8px;
     border: 2px solid #F9FAF8;
+    transition-duration: 0.4s;
+
 }
+button:hover {
+    background-color: white;
+    color: #1F2937;
+}
+
 footer {
     display: flex;
     padding: 25px;
@@ -202,4 +210,7 @@ footer {
     color: white;
     align-items: center;
     justify-content: center;
+}
+a:hover {
+    font-weight: bolder;
 }
